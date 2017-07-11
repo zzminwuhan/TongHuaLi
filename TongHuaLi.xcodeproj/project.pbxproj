@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372E809D1F14EC1B0041422F /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E809C1F14EC1B0041422F /* LogViewController.m */; };
+		372E80A01F14EC2D0041422F /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E809F1F14EC2D0041422F /* RegViewController.m */; };
+		372E80A31F14EC3F0041422F /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E80A21F14EC3F0041422F /* AuthViewController.m */; };
+		372E80A61F14EFDC0041422F /* INPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E80A51F14EFDC0041422F /* INPTextField.m */; };
+		372E80AE1F14F1BD0041422F /* img_reg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80A81F14F1BD0041422F /* img_reg@2x.png */; };
+		372E80AF1F14F1BD0041422F /* img_reg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80A91F14F1BD0041422F /* img_reg@3x.png */; };
+		372E80B01F14F1BD0041422F /* img_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80AA1F14F1BD0041422F /* img_password@2x.png */; };
+		372E80B11F14F1BD0041422F /* img_password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80AB1F14F1BD0041422F /* img_password@3x.png */; };
+		372E80B21F14F1BD0041422F /* img_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80AC1F14F1BD0041422F /* img_phone@2x.png */; };
+		372E80B31F14F1BD0041422F /* img_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80AD1F14F1BD0041422F /* img_phone@3x.png */; };
+		372E80BA1F14FC090041422F /* btn_log_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B41F14FC090041422F /* btn_log_01@2x.png */; };
+		372E80BB1F14FC090041422F /* btn_log_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B51F14FC090041422F /* btn_log_01@3x.png */; };
+		372E80BC1F14FC090041422F /* btn_log_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B61F14FC090041422F /* btn_log_02@2x.png */; };
+		372E80BD1F14FC090041422F /* btn_log_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B71F14FC090041422F /* btn_log_02@3x.png */; };
+		372E80BE1F14FC090041422F /* btn_log_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B81F14FC090041422F /* btn_log_03@2x.png */; };
+		372E80BF1F14FC090041422F /* btn_log_03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80B91F14FC090041422F /* btn_log_03@3x.png */; };
+		372E80C21F1502970041422F /* btn_back_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80C01F1502970041422F /* btn_back_w@2x.png */; };
+		372E80C31F1502970041422F /* btn_back_w@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80C11F1502970041422F /* btn_back_w@3x.png */; };
+		372E80C61F1503B40041422F /* img_code@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80C41F1503B40041422F /* img_code@2x.png */; };
+		372E80C71F1503B40041422F /* img_code@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E80C51F1503B40041422F /* img_code@3x.png */; };
+		372E80CA1F15061E0041422F /* PWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E80C91F15061E0041422F /* PWDViewController.m */; };
+		372E80CD1F15081A0041422F /* AuthTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E80CC1F15081A0041422F /* AuthTextView.m */; };
 		8B17DD701F14C4F000708DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DD6F1F14C4F000708DEA /* main.m */; };
 		8B17DD731F14C4F000708DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DD721F14C4F000708DEA /* AppDelegate.m */; };
 		8B17DD761F14C4F000708DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DD751F14C4F000708DEA /* ViewController.m */; };
@@ -155,10 +177,7 @@
 		8B17DF8D1F14CB5700708DEA /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF491F14CB5700708DEA /* LocationManager.m */; };
 		8B17DF8E1F14CB5700708DEA /* MLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF4B1F14CB5700708DEA /* MLTextView.m */; };
 		8B17DF8F1F14CB5700708DEA /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF4D1F14CB5700708DEA /* NetWorkManager.m */; };
-		8B17DF901F14CB5700708DEA /* NSDate+STCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF4F1F14CB5700708DEA /* NSDate+STCalendar.m */; };
 		8B17DF911F14CB5700708DEA /* RefleshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF511F14CB5700708DEA /* RefleshManager.m */; };
-		8B17DF921F14CB5700708DEA /* STCalendarShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF531F14CB5700708DEA /* STCalendarShowView.m */; };
-		8B17DF931F14CB5700708DEA /* STCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF551F14CB5700708DEA /* STCalendarView.m */; };
 		8B17DF941F14CB5700708DEA /* STCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF571F14CB5700708DEA /* STCountView.m */; };
 		8B17DF951F14CB5700708DEA /* TDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF591F14CB5700708DEA /* TDActionSheet.m */; };
 		8B17DF961F14CB5700708DEA /* TDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17DF5B1F14CB5700708DEA /* TDAlertView.m */; };
@@ -204,6 +223,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372E809B1F14EC1B0041422F /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		372E809C1F14EC1B0041422F /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		372E809E1F14EC2D0041422F /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
+		372E809F1F14EC2D0041422F /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
+		372E80A11F14EC3F0041422F /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		372E80A21F14EC3F0041422F /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		372E80A41F14EFDC0041422F /* INPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPTextField.h; sourceTree = "<group>"; };
+		372E80A51F14EFDC0041422F /* INPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPTextField.m; sourceTree = "<group>"; };
+		372E80A81F14F1BD0041422F /* img_reg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_reg@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80A91F14F1BD0041422F /* img_reg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_reg@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80AA1F14F1BD0041422F /* img_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_password@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80AB1F14F1BD0041422F /* img_password@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_password@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80AC1F14F1BD0041422F /* img_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_phone@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80AD1F14F1BD0041422F /* img_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_phone@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B41F14FC090041422F /* btn_log_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_01@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B51F14FC090041422F /* btn_log_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_01@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B61F14FC090041422F /* btn_log_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_02@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B71F14FC090041422F /* btn_log_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_02@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B81F14FC090041422F /* btn_log_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_03@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80B91F14FC090041422F /* btn_log_03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_log_03@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80C01F1502970041422F /* btn_back_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_w@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80C11F1502970041422F /* btn_back_w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_w@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80C41F1503B40041422F /* img_code@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_code@2x.png"; sourceTree = SOURCE_ROOT; };
+		372E80C51F1503B40041422F /* img_code@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_code@3x.png"; sourceTree = SOURCE_ROOT; };
+		372E80C81F15061E0041422F /* PWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDViewController.h; sourceTree = "<group>"; };
+		372E80C91F15061E0041422F /* PWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDViewController.m; sourceTree = "<group>"; };
+		372E80CB1F15081A0041422F /* AuthTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthTextView.h; sourceTree = "<group>"; };
+		372E80CC1F15081A0041422F /* AuthTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthTextView.m; sourceTree = "<group>"; };
 		8B17DD6B1F14C4F000708DEA /* TongHuaLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongHuaLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B17DD6F1F14C4F000708DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B17DD711F14C4F000708DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -482,14 +529,8 @@
 		8B17DF4B1F14CB5700708DEA /* MLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextView.m; sourceTree = "<group>"; };
 		8B17DF4C1F14CB5700708DEA /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		8B17DF4D1F14CB5700708DEA /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
-		8B17DF4E1F14CB5700708DEA /* NSDate+STCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+STCalendar.h"; sourceTree = "<group>"; };
-		8B17DF4F1F14CB5700708DEA /* NSDate+STCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+STCalendar.m"; sourceTree = "<group>"; };
 		8B17DF501F14CB5700708DEA /* RefleshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefleshManager.h; sourceTree = "<group>"; };
 		8B17DF511F14CB5700708DEA /* RefleshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefleshManager.m; sourceTree = "<group>"; };
-		8B17DF521F14CB5700708DEA /* STCalendarShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCalendarShowView.h; sourceTree = "<group>"; };
-		8B17DF531F14CB5700708DEA /* STCalendarShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCalendarShowView.m; sourceTree = "<group>"; };
-		8B17DF541F14CB5700708DEA /* STCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCalendarView.h; sourceTree = "<group>"; };
-		8B17DF551F14CB5700708DEA /* STCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCalendarView.m; sourceTree = "<group>"; };
 		8B17DF561F14CB5700708DEA /* STCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCountView.h; sourceTree = "<group>"; };
 		8B17DF571F14CB5700708DEA /* STCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCountView.m; sourceTree = "<group>"; };
 		8B17DF581F14CB5700708DEA /* TDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDActionSheet.h; sourceTree = "<group>"; };
@@ -573,9 +614,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372E80991F14EBF70041422F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				372E809A1F14EC020041422F /* LogReg */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		372E809A1F14EC020041422F /* LogReg */ = {
+			isa = PBXGroup;
+			children = (
+				372E809B1F14EC1B0041422F /* LogViewController.h */,
+				372E809C1F14EC1B0041422F /* LogViewController.m */,
+				372E809E1F14EC2D0041422F /* RegViewController.h */,
+				372E809F1F14EC2D0041422F /* RegViewController.m */,
+				372E80C81F15061E0041422F /* PWDViewController.h */,
+				372E80C91F15061E0041422F /* PWDViewController.m */,
+				372E80A11F14EC3F0041422F /* AuthViewController.h */,
+				372E80A21F14EC3F0041422F /* AuthViewController.m */,
+				372E80A41F14EFDC0041422F /* INPTextField.h */,
+				372E80A51F14EFDC0041422F /* INPTextField.m */,
+				372E80CB1F15081A0041422F /* AuthTextView.h */,
+				372E80CC1F15081A0041422F /* AuthTextView.m */,
+			);
+			name = LogReg;
+			sourceTree = "<group>";
+		};
+		372E80A71F14F1B10041422F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				372E80C01F1502970041422F /* btn_back_w@2x.png */,
+				372E80C11F1502970041422F /* btn_back_w@3x.png */,
+				372E80B41F14FC090041422F /* btn_log_01@2x.png */,
+				372E80B51F14FC090041422F /* btn_log_01@3x.png */,
+				372E80B61F14FC090041422F /* btn_log_02@2x.png */,
+				372E80B71F14FC090041422F /* btn_log_02@3x.png */,
+				372E80B81F14FC090041422F /* btn_log_03@2x.png */,
+				372E80B91F14FC090041422F /* btn_log_03@3x.png */,
+				372E80A81F14F1BD0041422F /* img_reg@2x.png */,
+				372E80A91F14F1BD0041422F /* img_reg@3x.png */,
+				372E80AA1F14F1BD0041422F /* img_password@2x.png */,
+				372E80AB1F14F1BD0041422F /* img_password@3x.png */,
+				372E80C41F1503B40041422F /* img_code@2x.png */,
+				372E80C51F1503B40041422F /* img_code@3x.png */,
+				372E80AC1F14F1BD0041422F /* img_phone@2x.png */,
+				372E80AD1F14F1BD0041422F /* img_phone@3x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		8B17DD621F14C4F000708DEA = {
 			isa = PBXGroup;
 			children = (
+				372E80991F14EBF70041422F /* Code */,
 				8B17DF381F14CB5700708DEA /* Macro */,
 				8B17DF6A1F14CB5700708DEA /* Resources */,
 				8B17DF6B1F14CB5700708DEA /* Vendors */,
@@ -1223,13 +1315,13 @@
 			isa = PBXGroup;
 			children = (
 				8B17DF391F14CB5700708DEA /* BaseMacro.h */,
+				8B17DF401F14CB5700708DEA /* ConfMacro.h */,
 				8B17DF3A1F14CB5700708DEA /* BaseModel.h */,
 				8B17DF3B1F14CB5700708DEA /* BaseModel.m */,
 				8B17DF3C1F14CB5700708DEA /* BaseViewController.h */,
 				8B17DF3D1F14CB5700708DEA /* BaseViewController.m */,
 				8B17DF3E1F14CB5700708DEA /* com_arrows_right@2x.png */,
 				8B17DF3F1F14CB5700708DEA /* com_arrows_right@3x.png */,
-				8B17DF401F14CB5700708DEA /* ConfMacro.h */,
 				8B17DF411F14CB5700708DEA /* GeTuiManager.h */,
 				8B17DF421F14CB5700708DEA /* GeTuiManager.m */,
 				8B17DF431F14CB5700708DEA /* HeaderMacro.h */,
@@ -1241,14 +1333,8 @@
 				8B17DF4B1F14CB5700708DEA /* MLTextView.m */,
 				8B17DF4C1F14CB5700708DEA /* NetWorkManager.h */,
 				8B17DF4D1F14CB5700708DEA /* NetWorkManager.m */,
-				8B17DF4E1F14CB5700708DEA /* NSDate+STCalendar.h */,
-				8B17DF4F1F14CB5700708DEA /* NSDate+STCalendar.m */,
 				8B17DF501F14CB5700708DEA /* RefleshManager.h */,
 				8B17DF511F14CB5700708DEA /* RefleshManager.m */,
-				8B17DF521F14CB5700708DEA /* STCalendarShowView.h */,
-				8B17DF531F14CB5700708DEA /* STCalendarShowView.m */,
-				8B17DF541F14CB5700708DEA /* STCalendarView.h */,
-				8B17DF551F14CB5700708DEA /* STCalendarView.m */,
 				8B17DF561F14CB5700708DEA /* STCountView.h */,
 				8B17DF571F14CB5700708DEA /* STCountView.m */,
 				8B17DF581F14CB5700708DEA /* TDActionSheet.h */,
@@ -1276,6 +1362,7 @@
 		8B17DF6A1F14CB5700708DEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				372E80A71F14F1B10041422F /* Image */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1465,23 +1552,39 @@
 				8B17DECE1F14CAB300708DEA /* LICENSE in Resources */,
 				8B17DFA41F14CB5700708DEA /* QRCodeLine@3x.png in Resources */,
 				8B17DFA31F14CB5700708DEA /* QRCodeLine@2x.png in Resources */,
+				372E80BB1F14FC090041422F /* btn_log_01@3x.png in Resources */,
 				8B17DD7E1F14C4F000708DEA /* LaunchScreen.storyboard in Resources */,
 				8B17DF0A1F14CAB300708DEA /* LICENSE in Resources */,
+				372E80C71F1503B40041422F /* img_code@3x.png in Resources */,
+				372E80B31F14F1BD0041422F /* img_phone@3x.png in Resources */,
+				372E80B11F14F1BD0041422F /* img_password@3x.png in Resources */,
+				372E80BD1F14FC090041422F /* btn_log_02@3x.png in Resources */,
+				372E80C21F1502970041422F /* btn_back_w@2x.png in Resources */,
 				8B17DEE11F14CAB300708DEA /* LICENSE in Resources */,
+				372E80B21F14F1BD0041422F /* img_phone@2x.png in Resources */,
 				8B17DD7B1F14C4F000708DEA /* Assets.xcassets in Resources */,
 				8B17DF041F14CAB300708DEA /* PYPhotosView.bundle in Resources */,
+				372E80BE1F14FC090041422F /* btn_log_03@2x.png in Resources */,
 				8B17DEBA1F14CAB300708DEA /* LICENSE in Resources */,
+				372E80C31F1502970041422F /* btn_back_w@3x.png in Resources */,
 				8B17DEDE1F14CAB300708DEA /* IQKeyboardManager.bundle in Resources */,
 				8B17DF881F14CB5700708DEA /* com_arrows_right@2x.png in Resources */,
+				372E80AF1F14F1BD0041422F /* img_reg@3x.png in Resources */,
+				372E80AE1F14F1BD0041422F /* img_reg@2x.png in Resources */,
 				8B17DEE41F14CAB300708DEA /* LICENSE in Resources */,
 				8B17DF2F1F14CAB300708DEA /* TZImagePickerController.bundle in Resources */,
 				8B17DFA61F14CB5700708DEA /* sound.caf in Resources */,
+				372E80BA1F14FC090041422F /* btn_log_01@2x.png in Resources */,
 				8B17DF271F14CAB300708DEA /* LICENSE in Resources */,
+				372E80BC1F14FC090041422F /* btn_log_02@2x.png in Resources */,
+				372E80B01F14F1BD0041422F /* img_password@2x.png in Resources */,
 				8B17DD791F14C4F000708DEA /* Main.storyboard in Resources */,
 				8B17DF131F14CAB300708DEA /* LICENSE in Resources */,
 				8B17DF891F14CB5700708DEA /* com_arrows_right@3x.png in Resources */,
 				8B17DEF31F14CAB300708DEA /* MJRefresh.bundle in Resources */,
 				8B17DECB1F14CAB300708DEA /* LICENSE in Resources */,
+				372E80BF1F14FC090041422F /* btn_log_03@3x.png in Resources */,
+				372E80C61F1503B40041422F /* img_code@2x.png in Resources */,
 				8B17DEFA1F14CAB300708DEA /* LICENCE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1515,8 +1618,8 @@
 				8B17DF021F14CAB300708DEA /* PYPhotoBrowserConst.m in Sources */,
 				8B17DEF11F14CAB300708DEA /* MJRefreshNormalHeader.m in Sources */,
 				8B17DF331F14CAB300708DEA /* TZPhotoPreviewCell.m in Sources */,
-				8B17DF931F14CB5700708DEA /* STCalendarView.m in Sources */,
 				8B17DF2B1F14CAB300708DEA /* TZAssetModel.m in Sources */,
+				372E80A31F14EC3F0041422F /* AuthViewController.m in Sources */,
 				8B17DF1B1F14CAB300708DEA /* SDWebImageDecoder.m in Sources */,
 				8B17DF941F14CB5700708DEA /* STCountView.m in Sources */,
 				8B17DFA81F14CB5700708DEA /* SGScanningQRCodeView.m in Sources */,
@@ -1543,6 +1646,7 @@
 				8B17DEDB1F14CAB300708DEA /* IQTitleBarButtonItem.m in Sources */,
 				8B17DD701F14C4F000708DEA /* main.m in Sources */,
 				8B17DF1E1F14CAB300708DEA /* SDWebImageManager.m in Sources */,
+				372E80A61F14EFDC0041422F /* INPTextField.m in Sources */,
 				8B17DF981F14CB5700708DEA /* UIBaseNavigationController.m in Sources */,
 				8B17DEEF1F14CAB300708DEA /* MJRefreshBackStateFooter.m in Sources */,
 				8B17DF341F14CAB300708DEA /* TZPhotoPreviewController.m in Sources */,
@@ -1582,6 +1686,7 @@
 				8B17DEB71F14CAB300708DEA /* AFURLRequestSerialization.m in Sources */,
 				8B17DF071F14CAB300708DEA /* PYPhotosView.m in Sources */,
 				8B17DF991F14CB5700708DEA /* UIView+Utils.m in Sources */,
+				372E80CD1F15081A0041422F /* AuthTextView.m in Sources */,
 				8B17DEB81F14CAB300708DEA /* AFURLResponseSerialization.m in Sources */,
 				8B17DF311F14CAB300708DEA /* TZLocationManager.m in Sources */,
 				8B17DEF81F14CAB300708DEA /* UIView+MJExtension.m in Sources */,
@@ -1611,23 +1716,25 @@
 				8B17DEC41F14CAB300708DEA /* UIWebView+AFNetworking.m in Sources */,
 				8B17DF8C1F14CB5700708DEA /* HUDManager.m in Sources */,
 				8B17DED21F14CAB300708DEA /* IQUITextFieldView+Additions.m in Sources */,
+				372E80CA1F15061E0041422F /* PWDViewController.m in Sources */,
 				8B17DFA71F14CB5700708DEA /* SGQRCodeTool.m in Sources */,
 				8B17DED41F14CAB300708DEA /* IQUIViewController+Additions.m in Sources */,
 				8B17DF221F14CAB300708DEA /* UIImage+MultiFormat.m in Sources */,
 				8B17DEDF1F14CAB300708DEA /* LICENSE.md in Sources */,
 				8B17DFA51F14CB5700708DEA /* SGAlertView.m in Sources */,
+				372E809D1F14EC1B0041422F /* LogViewController.m in Sources */,
 				8B17DF951F14CB5700708DEA /* TDActionSheet.m in Sources */,
 				8B17DF181F14CAB300708DEA /* SDImageCache.m in Sources */,
 				8B17DF1A1F14CAB300708DEA /* SDWebImageCompat.m in Sources */,
 				8B17DF9B1F14CB5700708DEA /* WKWebViewController.m in Sources */,
 				8B17DEC91F14CAB300708DEA /* FLAnimatedImage.m in Sources */,
 				8B17DEDC1F14CAB300708DEA /* IQToolbar.m in Sources */,
-				8B17DF901F14CB5700708DEA /* NSDate+STCalendar.m in Sources */,
 				8B17DED01F14CAB300708DEA /* IQNSArray+Sort.m in Sources */,
 				8B17DF0C1F14CAB300708DEA /* TAAbstractDotView.m in Sources */,
 				8B17DF251F14CAB300708DEA /* UIView+WebCache.m in Sources */,
 				8B17DF911F14CB5700708DEA /* RefleshManager.m in Sources */,
 				8B17DEF51F14CAB300708DEA /* NSBundle+MJRefresh.m in Sources */,
+				372E80A01F14EC2D0041422F /* RegViewController.m in Sources */,
 				8B17DF031F14CAB300708DEA /* PYProgressView.m in Sources */,
 				8B17DEEB1F14CAB300708DEA /* MJRefreshAutoNormalFooter.m in Sources */,
 				8B17DEDD1F14CAB300708DEA /* IQUIView+IQKeyboardToolbar.m in Sources */,
@@ -1644,7 +1751,6 @@
 				8B17DEFC1F14CAB300708DEA /* UIView+PYExtension.m in Sources */,
 				8B17DEF61F14CAB300708DEA /* UIScrollView+MJExtension.m in Sources */,
 				8B17DFA21F14CB5700708DEA /* SGScanningQRCodeVC.m in Sources */,
-				8B17DF921F14CB5700708DEA /* STCalendarShowView.m in Sources */,
 				8B17DEFE1F14CAB300708DEA /* PYPhotosPreviewController.m in Sources */,
 				8B17DFA11F14CB5700708DEA /* SGGenerateQRCodeVC.m in Sources */,
 				8B17DF141F14CAB300708DEA /* README.md in Sources */,
@@ -1785,7 +1891,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/aiwen/Desktop/TongHuaLi-master/TongHuaLi/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/lijiajian/Desktop/TongHuaLi/TongHuaLi/PrefixHeader.pch;
 				INFOPLIST_FILE = TongHuaLi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1804,7 +1910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/aiwen/Desktop/TongHuaLi-master/TongHuaLi/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/lijiajian/Desktop/TongHuaLi/TongHuaLi/PrefixHeader.pch;
 				INFOPLIST_FILE = TongHuaLi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

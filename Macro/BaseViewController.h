@@ -11,6 +11,12 @@
 @interface BaseViewController : UIViewController
 
 
+@property (nonatomic ,strong)UIView *naviBar;
+@property (nonatomic ,strong)UILabel *naviTitle;
+
+- (void)initBackBtn ;
+
+
 - (void)initTitle:(NSString*)title ;
 
 - (void)initNaviBarBtn:(NSString*)title ;

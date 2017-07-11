@@ -21,6 +21,8 @@
 #pragma detail 设置偏移量
     self.edgesForExtendedLayout = UIRectEdgeNone ;
     
+    self.navigationController.navigationBarHidden = YES;
+    
     [self reset];
 }
 
@@ -43,7 +45,6 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    [self.navigationController.navigationBar setBarTintColor:MAINCOLOR];
     
 }
 
@@ -52,9 +53,43 @@
 - (void)reset {
     
     
+    _naviBar = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEM_WIDTH, 64)];
+    _naviBar.backgroundColor = HEX7BC531;
+    [self.view addSubview:_naviBar];
+    
+    
+    _naviTitle = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, SCREEM_WIDTH, 44)];
+    _naviTitle.textColor = HEXFFFFFF;
+    _naviTitle.font = FONT(19);
+    _naviTitle.textAlignment = NSTextAlignmentCenter;
+    [_naviBar addSubview:_naviTitle];
+    
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
 }
+
+
+
+- (void)initBackBtn {
+    
+    
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 20, 44, 44)];
+    
+    [btn setImage:[UIImage imageNamed:@"btn_back_w"] forState:UIControlStateNormal];
+    
+    [_naviBar addSubview:btn];
+    
+    [btn addTarget:self action:@selector(backBtnAction) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+
+- (void)backBtnAction {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
 
 
 
@@ -68,9 +103,11 @@
 
 - (void)initNaviBarBtn:(NSString*)title {
     
-    [self setLeftBarWithCustomView:[self barBtnWithSEL:@selector(naviBtn)]];
-
-    [self setTitleViewWithCustomView:[self titleLabelWithTitle:title]];
+//    [self setLeftBarWithCustomView:[self barBtnWithSEL:@selector(naviBtn)]];
+//
+//    [self setTitleViewWithCustomView:[self titleLabelWithTitle:title]];
+    
+    _naviTitle.text = title;
     
 }
 
