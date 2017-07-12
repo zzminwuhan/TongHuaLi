@@ -10,6 +10,10 @@
 
 #import "LogViewController.h"
 
+#import "GeTuiManager.h"
+
+#import "SKShare.h"
+
 @interface AppDelegate ()
 
 @end
@@ -32,6 +36,16 @@
     self.window.rootViewController = navi;
     
     [self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    [SKShare initSDK];
+    
+    [GeTuiManager shareInstance];
+    if(launchOptions != nil){
+        
+        [[GeTuiManager shareInstance] didFinishLaunchingWithOptions:launchOptions];
+    }
     
     
     return YES;
@@ -63,6 +77,73 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
+
+
+
+#pragma mark - 开始竖屏
+//开启竖屏
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    return (UIInterfaceOrientationMaskPortrait);
+}
+
+
+
+#pragma mark - app 回调
+// 其他应用 回调
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    [SKShare handleOpenURL:url];
+    
+    return YES;
+}
+
+
+// 打开其他应用 或者链接 9.0 以后
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    
+    [SKShare handleOpenURL:url];
+    return YES;
+}
+
+// 4.2 - 9.0
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    [SKShare handleOpenURL:url];
+    return YES;
+}
+
+
+
+// 推送部分
+
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error  {
+    
+    NSLog(@"didFailToRegistererror %@",error);
+}
+
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    
+    [[GeTuiManager shareInstance] registerForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    
+    NSLog(@"didReceiveRemoteNotification %@",userInfo);
+    
+    [[GeTuiManager shareInstance] didReceiveRemoteNotification:userInfo];
+    
+}
+
+
 
 
 @end
